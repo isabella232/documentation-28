@@ -1,5 +1,6 @@
 ---
 title: Authentication
+folder: api-docs
 position: 2
 right_code: |
   ~~~ javascript

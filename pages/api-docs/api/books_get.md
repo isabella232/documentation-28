@@ -1,5 +1,6 @@
 ---
 title: /books/:id
+folder: api-docs
 position: 1.3
 type: get
 description: Get Book

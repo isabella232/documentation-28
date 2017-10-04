@@ -1,5 +1,6 @@
 ---
 title: /books/:id
+folder: api-docs
 position: 1.4
 type: put
 description: Update Book

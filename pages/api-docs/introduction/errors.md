@@ -1,5 +1,6 @@
 ---
 title: Response Codes & Errors
+folder: api-docs
 position: 3
 ---
 

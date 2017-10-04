@@ -65,16 +65,6 @@ collections:
   tooltips:
     output: false
 
-#api docs
-  introduction:
-    title: Introduction
-    position: 1
-  measurements:
-    title: Measurements
-    position: 2
-  api:
-    title: APIs
-    position: 3    
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:

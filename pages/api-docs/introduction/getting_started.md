@@ -1,5 +1,6 @@
 ---
 title: API Reference
+folder: api-docs
 position: 1
 ---
 

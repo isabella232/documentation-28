@@ -1,5 +1,6 @@
 ---
 title: /books/:id
+folder: api-docs
 position: 1.5
 type: delete
 description: Deletes a book

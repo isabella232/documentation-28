@@ -1,5 +1,6 @@
 ---
 title: /books
+folder: api-docs
 position: 1.0
 type: get
 description: List all books

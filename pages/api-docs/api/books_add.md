@@ -1,5 +1,6 @@
 ---
 title: /books
+folder: api-docs
 position: 1.1
 type: post
 description: Create Book
