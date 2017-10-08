@@ -1,37 +1,10 @@
 ---
 title: API documentation
 keywords: api-docs
-sidebar: product1_sidebar
+sidebar: api-docs_sidebar
 toc: false
 permalink: api_landing_page.html
 folder: api-docs
 ---
-{% assign sorted_collections = site.collections | sort: "position" %}
-{% for collection in sorted_collections %}
-    {% assign sorted_docs = collection.docs | sort: "position" %}
-    {% for doc in sorted_docs %}
-        <section class="doc-content">
-            <section class="left-docs">
-                <h3>
-                    <a id="{{ doc.id | replace: '/', '' | replace: '.', '' }}">
-                        {{ doc.title }}
-                        {% if doc.type %}
-                            <span class="endpoint {{ doc.type }}"></span>
-                        {% endif %}
-                    </a>
-                </h3>
-                {% if doc.description %}
-                    <p class="description">{{doc.description}}</p>
-                {% endif %}
 
-                {{ doc.content | replace: "<dl>", "<h6>Parameters</h6><dl>" }}
-            </section>
-
-            {% if doc.right_code %}
-                <section class="right-code">
-                    {{ doc.right_code | markdownify }}
-                </section>
-            {% endif %}
-        </section>
-    {% endfor %}
-{% endfor %}
+ <p>Hello World</p>

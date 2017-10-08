@@ -1,6 +1,9 @@
 ---
 title: Measurement Parameters
 folder: api-docs
+layout: api-docs
+sidebar: api-docs_sidebar
+permalink: api_measurements.html
 position: 1.1
 type: 
 description:

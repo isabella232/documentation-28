@@ -1,6 +1,9 @@
 ---
 title: Authentication
 folder: api-docs
+layout: api-docs
+sidebar: api-docs_sidebar
+permalink: api_authentication.html
 position: 2
 right_code: |
   ~~~ javascript

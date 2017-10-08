@@ -1,6 +1,9 @@
 ---
 title: API Reference
 folder: api-docs
+layout: api-docs
+sidebar: api-docs_sidebar
+permalink: api_getting_started.html
 position: 1
 ---
 

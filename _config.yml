@@ -3,10 +3,10 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: AppOptics Documentation
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: AppOptics Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: SolarWinds
@@ -99,9 +99,11 @@ defaults:
       sidebar: home_sidebar
       topnav: topnav
 
+
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
+- api-docs_sidebar
 - home_sidebar
 - mydoc_sidebar
 - product1_sidebar
@@ -113,3 +115,13 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 # needed for sitemap.xml file only
 url: http://idratherbewriting.com
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+types:
+  - get
+  - put
+  - delete
+  - post

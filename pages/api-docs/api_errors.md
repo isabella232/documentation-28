@@ -1,7 +1,11 @@
 ---
 title: Response Codes & Errors
+keywords: api-docs
+toc: false
+permalink: api_errors.html
 folder: api-docs
-position: 3
+layout: api-docs
+sidebar: api-docs_sidebar
 ---
 
 ## HTTP Status Codes

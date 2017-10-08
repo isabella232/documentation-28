@@ -1,6 +1,9 @@
 ---
 title: /measurements
 folder: api-docs
+layout: api-docs
+sidebar: api-docs_sidebar
+permalink: api_measurements_post.html
 position: 1.2
 type: post
 description: Create a Measurement

@@ -1,6 +1,9 @@
 ---
 title: /measurements
 folder: api-docs
+layout: api-docs
+sidebar: api-docs_sidebar
+permalink: api_measurements_get.html
 position: 1
 type: get
 description: Get a list of measurement
